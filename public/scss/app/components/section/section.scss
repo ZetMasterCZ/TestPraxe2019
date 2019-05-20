@@ -1,0 +1,9 @@
+.section{
+
+}
+
+.section__description{
+    margin-bottom: 1em;
+    @include fluid-font(xs);
+    line-height: 1.4;
+}
