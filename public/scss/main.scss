@@ -1,0 +1,29 @@
+@import "libs/loader.scss";
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700&subset=latin-ext');
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/Avenir-Light.ttf')  format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/Avenir-Black.ttf')  format('truetype');
+    font-weight: bold;
+
+}
+
+@import "app/variables.scss";
+
+body{
+    font-family: 'Avenir', sans-serif;
+    /*color: $color-primary-dark;*/
+}
+
+@import "app/loader.scss";
+
+
+
+
