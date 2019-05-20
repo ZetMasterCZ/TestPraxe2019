@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AACA,IAAI;EACA,UAAU,EAAE,KAAK;EACjB,UAAU,EAAE,UAAU;EACtB,SAAS,EAAE,IAAI;;AAGnB;;OAEQ;EACJ,UAAU,EAAE,UAAU;;AAG1B,IAAI;EACA,UAAU,EAAE,KAAK;EACjB,SAAS,EAAE,OAAO;EAClB,WAAW,ECfW,IAAI",
-"sources": ["../../../scss/libs/layout/layout.scss","../../../scss/libs/layout/variables.scss"],
-"names": [],
-"file": "layout.css"
-}

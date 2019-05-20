@@ -1,1 +1,0 @@
-let banana = "Banánek";
