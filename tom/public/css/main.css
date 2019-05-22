@@ -20,11 +20,14 @@ body {
 .container {
   width: 100%;
   flex-grow: 1;
+  justify-content: space-around;
   display: flex;
   background-color: red; }
 
 .element {
   height: 2.5rem;
+  max-width: 20%;
+  align-self: center;
   border: 0.0625rem solid black;
   flex-grow: 1;
   background-color: green; }

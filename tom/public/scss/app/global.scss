@@ -29,12 +29,15 @@ body{
 .container{
     width: 100%;
     flex-grow: 1;
+    justify-content: space-around;
     display: flex;
     background-color: red;
 }
 
 .element{
     height: rem(40);
+    max-width: 20%;
+    align-self: center;
     border: rem(1) solid black;
     flex-grow: 1;
     background-color: green;
