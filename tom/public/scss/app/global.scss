@@ -27,25 +27,15 @@ body{
 
 
 .container{
-    min-height: 100vh;
-    @include container();
-    align-items: center;    
-    justify-content: center;
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    background-color: red;
 }
 
-$widths: (
-xl: 500,
-s: 100
-);
-
-.square{  
-    @include linear-interpolation-chain(width,$widths);
-    @include linear-interpolation-chain(height,$widths);
-    @include material-box-shadow(2); 
-    transition: box-shadow 500ms;
-
-    &:hover{
-        @include material-box-shadow(8);
-    }
-
+.element{
+    height: rem(40);
+    border: rem(1) solid black;
+    flex-grow: 1;
+    background-color: green;
 }
