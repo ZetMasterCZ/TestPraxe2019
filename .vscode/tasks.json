@@ -7,7 +7,7 @@
         {
             "label": "Sass Compile",
             "type": "shell",
-            "command": "node-sass tom/public/scss/main.scss tom/public/css/main.css",
+            "command": "node-sass lobotom/public/scss/main.scss lobotom/public/css/main.css",
             "group": "build"
         }
     ]
