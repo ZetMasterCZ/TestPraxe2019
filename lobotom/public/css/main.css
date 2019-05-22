@@ -21,7 +21,33 @@ body {
   width: 100%;
   flex-grow: 1;
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  align-content: center;
+  display: flex;
+  width: 100%;
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: calc(3.57143vw - 0.08929rem);
+  padding-right: calc(3.57143vw - 0.08929rem); }
+  @media (min-width: 37.5em) {
+    .container {
+      padding-left: calc(3.33333vw + 0rem); } }
+  @media (min-width: 56.25em) {
+    .container {
+      padding-left: calc(3.33333vw + 0rem); } }
+  @media (min-width: 75em) {
+    .container {
+      padding-left: 2.5rem; } }
+  @media (min-width: 37.5em) {
+    .container {
+      padding-right: calc(3.33333vw + 0rem); } }
+  @media (min-width: 56.25em) {
+    .container {
+      padding-right: calc(3.33333vw + 0rem); } }
+  @media (min-width: 75em) {
+    .container {
+      padding-right: 2.5rem; } }
 
 .element {
   height: 2.5rem;
@@ -29,7 +55,6 @@ body {
   background-color: green;
   flex-grow: 1;
   flex: 0 0 33.333333%;
-  padding: 0%;
   padding-top: 33.333333%; }
 
 .heading {
