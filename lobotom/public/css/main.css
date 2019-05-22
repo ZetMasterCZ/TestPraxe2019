@@ -21,13 +21,15 @@ body {
   width: 100%;
   flex-grow: 1;
   display: flex;
-  background-color: red; }
+  background-color: red;
+  justify-content: space-around; }
 
 .element {
   height: 2.5rem;
   border: 0.0625rem solid black;
-  flex-grow: 1;
-  background-color: green; }
+  width: 20%;
+  background-color: green;
+  align-self: center; }
 
 .heading {
   font-weight: bold;

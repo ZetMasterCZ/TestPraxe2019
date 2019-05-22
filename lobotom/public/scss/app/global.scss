@@ -31,13 +31,16 @@ body{
     flex-grow: 1;
     display: flex;
     background-color: red;
+    justify-content: space-around;
 }
 
 .element{
     height: rem(40);
     border: rem(1) solid black;
     flex-grow: 1;
+    max-width: 20%;
     background-color: green;
+    align-self: center;
 }
 
 
