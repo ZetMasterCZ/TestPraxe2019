@@ -20,8 +20,8 @@ body {
 .container {
   width: 100%;
   flex-grow: 1;
-  /*justify-content: space-around;
-    justify-content: space-evenly;*/
+  justify-content: space-around;
+  justify-content: space-evenly;
   align-content: center;
   display: flex;
   flex-wrap: wrap;
@@ -53,8 +53,8 @@ body {
 
 .element {
   height: 2.5rem;
-  padding-top: 33.333333%;
-  flex: 0 0 33.333333%;
+  padding-top: 20%;
+  flex: 0 0 20%;
   border: 0.0625rem solid black;
   flex-grow: 1;
   background-color: green; }
