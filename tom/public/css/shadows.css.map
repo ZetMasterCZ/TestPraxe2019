@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../scss/libs/material/shadows.scss"
+    ],
+    "names": [],
+    "file": "shadows.css"
+}
